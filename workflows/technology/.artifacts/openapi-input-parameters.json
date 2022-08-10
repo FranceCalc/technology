@@ -1,0 +1,723 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-430:345":{
+            "type":"string",
+            "default":"tec_ind",
+            "description":"Enter Description",
+            "example":"tec_ind"
+        },
+        "single-selection-554:555:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "single-selection-406:422:394":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"5.1 Electricity"
+                }
+            },
+            "description":"Name of the linked module",
+            "example":{
+                "variable_value":"5.1 Electricity"
+            }
+        },
+        "single-selection-462:467:314":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"cp"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"cp"
+            }
+        },
+        "string-input-431:345":{
+            "type":"string",
+            "default":"tec_agr",
+            "description":"Enter Description",
+            "example":"tec_agr"
+        },
+        "single-selection-554:556:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "string-input-462:464:347":{
+            "type":"string",
+            "default":"material-switch-ratios",
+            "description":"Enter Description",
+            "example":"material-switch-ratios"
+        },
+        "column-filter-513:512:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"ots_tec_freight_vehicle-lifetime_new_HDVL_FCEV[years]"
+                    }
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                    "ots_tec_freight_vehicle-lifetime_new_HDVL_FCEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVL_CEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVL_PHEV-diesel[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVL_PHEV-gasoline[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVL_ICE-gasoline[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVL_ICE-diesel[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVL_ICE-gas[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVL_BEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVM_FCEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVM_CEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVM_PHEV-diesel[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVM_PHEV-gasoline[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVM_ICE-gasoline[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVM_ICE-diesel[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVM_ICE-gas[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVM_BEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVH_FCEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVH_CEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVH_PHEV-diesel[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVH_PHEV-gasoline[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVH_ICE-gasoline[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVH_ICE-diesel[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVH_ICE-gas[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_HDVH_BEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_rail_CEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_rail_ICE-diesel[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_aviation_BEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_aviation_ICE[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_IWW_FCEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_IWW_BEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_IWW_ICE[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_marine_FCEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_marine_BEV[years]",
+                    "ots_tec_freight_vehicle-lifetime_new_marine_ICE[years]",
+                    "ots_tec_passenger_vehicle-lifetime_new_LDV_ICE-diesel[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_LDV_ICE-gasoline[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_LDV_ICE-gas[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_LDV_PHEV-diesel[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_LDV_PHEV-gasoline[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_LDV_BEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_LDV_FCEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_2W_ICE-gas[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_2W_ICE-diesel[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_2W_ICE-gasoline[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_2W_BEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_2W_FCEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_2W_PHEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_bus_ICE-diesel[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_bus_ICE-gasoline[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_bus_ICE-gas[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_bus_BEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_bus_FCEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_bus_PHEV-diesel[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_metro-tram_CEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_rail_CEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_rail_FCEV[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_rail_ICE-diesel[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_aviation_ICE[km]",
+                    "ots_tec_passenger_vehicle-lifetime_new_aviation_BEV[km]"
+                ]
+            }
+        },
+        "single-selection-515:314":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"fts"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"fts"
+            }
+        },
+        "string-input-554:343":{
+            "type":"string",
+            "default":"fuel-price",
+            "description":"the lever name should be the same as the file name (without prefix ots-fts-ll)",
+            "example":"fuel-price"
+        },
+        "single-selection-462:464:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "single-selection-598:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "data-type-554:357":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"historical"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "historical",
+                    "projection"
+                ]
+            }
+        },
+        "string-input-556:345":{
+            "type":"string",
+            "default":"tec_technology-costs",
+            "description":"Enter Description",
+            "example":"tec_technology-costs"
+        },
+        "single-selection-431:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "string-input-432:345":{
+            "type":"string",
+            "default":"tec_elc",
+            "description":"Enter Description",
+            "example":"tec_elc"
+        },
+        "string-input-513:343":{
+            "type":"string",
+            "default":"freight_vehicle-lifetime_new",
+            "description":"the lever name should be the same as the file name (without prefix ots-fts-ll)",
+            "example":"freight_vehicle-lifetime_new"
+        },
+        "string-input-600:452:347":{
+            "type":"string",
+            "default":"power",
+            "description":"Enter Description",
+            "example":"power"
+        },
+        "string-input-513:544:343":{
+            "type":"string",
+            "default":"passenger_vehicle-lifetime_new",
+            "description":"the lever name should be the same as the file name (without prefix ots-fts-ll)",
+            "example":"passenger_vehicle-lifetime_new"
+        },
+        "single-selection-605:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "data-type-554:556:357":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"historical"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "historical"
+                ]
+            }
+        },
+        "single-selection-432:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "string-input-598:345":{
+            "type":"string",
+            "default":"tec_fos",
+            "description":"Enter Description",
+            "example":"tec_fos"
+        },
+        "string-input-429:345":{
+            "type":"string",
+            "default":"tec_tra",
+            "description":"Enter Description",
+            "example":"tec_tra"
+        },
+        "single-selection-0:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "single-selection-513:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "single-selection-556:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "single-selection-513:544:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "single-selection-513:512:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "single-selection-429:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "string-input-605:345":{
+            "type":"string",
+            "default":"tec_ccu",
+            "description":"Enter Description",
+            "example":"tec_ccu"
+        },
+        "single-selection-513:512:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "single-selection-406:1191:394":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"5.2 Oil Refinery"
+                }
+            },
+            "description":"Name of the linked module",
+            "example":{
+                "variable_value":"5.2 Oil Refinery"
+            }
+        },
+        "single-selection-600:452:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "data-type-554:555:357":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"historical"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "historical"
+                ]
+            }
+        },
+        "string-input-554:556:343":{
+            "type":"string",
+            "default":"price-index-evolution",
+            "description":"the lever name should be the same as the file name (without prefix ots-fts-ll)",
+            "example":"price-index-evolution"
+        },
+        "single-selection-406:1194:394":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"3.2 CCUS"
+                }
+            },
+            "description":"Name of the linked module",
+            "example":{
+                "variable_value":"3.2 CCUS"
+            }
+        },
+        "single-selection-554:551:314":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"ots"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"ots"
+            }
+        },
+        "data-type-513:544:357":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"historical"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "historical"
+                ]
+            }
+        },
+        "boolean-input-554:360":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "single-selection-430:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "single-selection-616:314":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"ots"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"ots"
+            }
+        },
+        "single-selection-554:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"technology"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"technology"
+            }
+        },
+        "single-selection-406:419:394":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"2.2 Transport"
+                }
+            },
+            "description":"Name of the linked module",
+            "example":{
+                "variable_value":"2.2 Transport"
+            }
+        },
+        "single-selection-406:395":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"1.3 Technology"
+                }
+            },
+            "description":"Name of the current module",
+            "example":{
+                "variable_value":"1.3 Technology"
+            }
+        },
+        "single-selection-406:394":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"2.1 Buildings"
+                }
+            },
+            "description":"Name of the linked module",
+            "example":{
+                "variable_value":"2.1 Buildings"
+            }
+        },
+        "single-selection-606:551:314":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"ots"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"ots"
+            }
+        },
+        "single-selection-517:314":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"fts"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"fts"
+            }
+        },
+        "single-selection-513:551:314":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"ots"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"ots"
+            }
+        },
+        "boolean-input-554:556:360":{
+            "type":"boolean",
+            "default":"false",
+            "description":"Enter Description",
+            "example":false
+        },
+        "single-selection-600:314":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"ots"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"ots"
+            }
+        },
+        "single-selection-406:420:394":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"3.1a Industry"
+                }
+            },
+            "description":"Name of the linked module",
+            "example":{
+                "variable_value":"3.1a Industry"
+            }
+        },
+        "string-input-0:345":{
+            "type":"string",
+            "default":"tec_bld",
+            "description":"Enter Description",
+            "example":"tec_bld"
+        },
+        "string-input-554:555:343":{
+            "type":"string",
+            "default":"price-index-comparison",
+            "description":"the lever name should be the same as the file name (without prefix ots-fts-ll)",
+            "example":"price-index-comparison"
+        },
+        "boolean-input-554:555:360":{
+            "type":"boolean",
+            "default":"false",
+            "description":"Enter Description",
+            "example":false
+        },
+        "single-selection-406:1183:394":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"1.3 Technology costs"
+                }
+            },
+            "description":"Name of the linked module",
+            "example":{
+                "variable_value":"1.3 Technology costs"
+            }
+        },
+        "single-selection-406:421:394":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"4.3 Agriculture"
+                }
+            },
+            "description":"Name of the linked module",
+            "example":{
+                "variable_value":"4.3 Agriculture"
+            }
+        },
+        "data-type-513:357":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"historical"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "historical"
+                ]
+            }
+        }
+    }
+}
